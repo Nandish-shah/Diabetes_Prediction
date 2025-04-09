@@ -22,7 +22,7 @@ Ensure you have Python 3.7+ installed on your system.
 
 Step 1: Clone the Repository
 
-git clone https://github.com/Shaan-Thakkar-1812/Diabetes_Detection.git
+git clone [https://github.com/Shaan-Thakkar-1812/Diabetes_Detection.git](https://github.com/Nandish-shah/Diabeties_Prediction)
 cd Diabetes_Detection
 
 Step 2: Install Dependencies

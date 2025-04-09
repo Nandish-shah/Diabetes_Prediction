@@ -2,7 +2,7 @@
 """
 Created on Tue Mar 25 18:21:43 2025
 
-@author: shaan
+@author: Nandish
 """
 
 import numpy as np
@@ -12,10 +12,10 @@ import streamlit as st
 from sklearn.preprocessing import StandardScaler
 
 # ✅ Load the trained model
-loaded_model = pickle.load(open('C:/Users/shaan/OneDrive/Desktop/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/Nandish/OneDrive/Desktop/trained_model.sav', 'rb'))
 
 # ✅ Load dataset for feature names & fit scaler
-diabetes_dataset = pd.read_csv('C:/Users/shaan/OneDrive/Desktop/diabetes.csv')
+diabetes_dataset = pd.read_csv('C:/Users/Nandish/OneDrive/Desktop/diabetes.csv')
 X = diabetes_dataset.drop(columns='Outcome', axis=1)
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)  # Fit the scaler on training data

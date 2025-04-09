@@ -1,6 +1,6 @@
 import numpy as np
 import pickle 
-loaded_model = pickle.load(open('C:/Users/shaan/OneDrive/Desktop/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:/Users/Nandish/OneDrive/Desktop/trained_model.sav', 'rb'))
 input_data = (5,166,72,19,175,25.8,0.587,51)
 
 # changing the input_data to numpy array
